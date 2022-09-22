@@ -1,7 +1,7 @@
 import React from 'react';
-import Form from './Form';
-import Dropdow from './Dropdow';
-import Secciones from './Secciones';
+import Form from '../layouts/Form';
+import Dropdow from '../layouts/Dropdow';
+import Secciones from '../layouts/Secciones';
 
 const Navbar = () => {
   const listDrowdon = ["Pintas", "botellas", "barriles"]  

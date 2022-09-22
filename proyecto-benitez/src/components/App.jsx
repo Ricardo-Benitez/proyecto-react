@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Cards from './components/Cards';
-import './App.css'
+import Navbar from './content/Navbar';
+import Main from './content/Main';
+import '../styles/App.css'
 
 const App = () => {
     return (
     <>
        <Navbar/>
-       
-       <Cards/>
+
+       <Main/>
     </>
     
     );
