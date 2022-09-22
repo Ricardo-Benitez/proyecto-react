@@ -1,7 +1,7 @@
 import React from 'react';
 import Form from '../layouts/Form';
 import Dropdow from '../layouts/Dropdow';
-import Secciones from '../layouts/Secciones';
+import Sections from '../layouts/Sections';
 
 const Navbar = () => {
   const listDrowdon = ["Pintas", "botellas", "barriles"]  
@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className="container-fluid">
             <div className="collapse navbar-collapse" id="navbarColor03">
               <ul className="navbar-nav me-auto">
-               <Secciones/>
+               <Sections/>
                <Dropdow lista={listDrowdon}/>
               </ul>
              <Form busqueda="buscar producto"/>

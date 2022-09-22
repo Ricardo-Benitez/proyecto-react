@@ -1,9 +1,9 @@
 import React from 'react';
-import Productos from '../layouts/Productos';
+import Products from '../layouts/Products';
 const Main = () => {
     return (
        <>
-       <Productos/>
+       <Products/>
        </>
     );
 }
