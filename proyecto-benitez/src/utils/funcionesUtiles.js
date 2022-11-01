@@ -3,4 +3,3 @@ export const consultarBDD = async (ruta) => {
     const productos = await response.json()
     return productos
 }
-   

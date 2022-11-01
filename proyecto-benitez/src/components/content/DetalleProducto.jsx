@@ -1,6 +1,21 @@
-import React from 'react';
-
+import React, {useState, useContext} from 'react';
+import { CarritoContext } from '../../context/CarritoContext';
 const DetalleProducto = ({producto}) => {
+    const [cantidad, setCantidad] = useState(1);
+    
+    const {carrito, agregarProducto, quitarProducto} = useContext(CarritoContext)
+
+    const cantProducto = (operacion) => {
+      if(operacion == "+") {
+        if(cantidad < 20) {
+          setCantidad(cantidad + 1)
+        }   
+    } else {
+      if(cantidad > 1) {
+        setCantidad(cantidad - 1)
+      }
+  }
+}
     return (
         <>
          
@@ -13,7 +28,11 @@ const DetalleProducto = ({producto}) => {
         <h5 className="card-title">{producto.nombre}</h5>  
         <p className="card-text">{producto.tipo}</p>
         <p className="card-text">{producto.precio}</p>
-        <button className='btn btn-dark'>Comprar</button>
+        <button className='btn btn-light' onClick={() => cantProducto("+")}>+</button>
+
+        <button className='btn btn-dark' onClick={() => cantProducto("-")}>-</button>
+
+        <button className='btn btn-dark' onClick={() => agregarProducto(producto, cantidad) }>Agregar al carrito</button>
         </div>
         </div>
       </div>

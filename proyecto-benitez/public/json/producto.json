@@ -5,7 +5,7 @@
     "idCategoria":1,
     "tipo":"Ipa California",
     "precio": 350,
-    "img":"foto1.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/lagashbeer.appspot.com/o/foto1.jpg?alt=media&token=cf27e222-230a-4ee4-9a06-5a4266252f5a"
   },
   {
       "id": 2,
@@ -13,7 +13,7 @@
       "idCategoria":1,
       "tipo":"Doble Ipa",
       "precio": 400,
-      "img":"foto2.jpg"
+      "img":"https://firebasestorage.googleapis.com/v0/b/lagashbeer.appspot.com/o/foto2.jpg?alt=media&token=aceb2a99-76ef-4ced-8d68-de93aa6d1c37"
   },
   {
       "id": 3,
@@ -21,7 +21,7 @@
       "idCategoria":1,
       "tipo":"Pilsen Lager",
       "precio": 400,
-      "img":"foto3.jpg"
+      "img":"https://firebasestorage.googleapis.com/v0/b/lagashbeer.appspot.com/o/foto3.jpg?alt=media&token=7d13f303-fc40-45b3-87c6-4d78e78f586c"
   },
   {
       "id": 4,
@@ -29,7 +29,7 @@
       "idCategoria":1,
       "tipo":"Apa",
       "precio": 400,
-      "img":"foto4.jpg"
+      "img":"https://firebasestorage.googleapis.com/v0/b/lagashbeer.appspot.com/o/foto4.jpg?alt=media&token=30d9dc5a-50d3-4cd9-965f-7bc702458f09"
   },
   {
       "id": 5,
@@ -37,7 +37,7 @@
       "idCategoria":1,
       "tipo":"Neipa",
       "precio": 350,
-      "img":"foto5.jpg"
+      "img":"https://firebasestorage.googleapis.com/v0/b/lagashbeer.appspot.com/o/foto5.jpg?alt=media&token=5b12e211-7257-4164-87a5-6cea4f01d443"
   },
   {
       "id": 6,
@@ -45,7 +45,7 @@
       "idCategoria":1,
       "tipo":"Brut Ipa",
       "precio": 450,
-      "img":"foto6.jpg"
+      "img":"https://firebasestorage.googleapis.com/v0/b/lagashbeer.appspot.com/o/foto6.jpg?alt=media&token=2d132be9-9b65-4ad3-9b2a-e34ad8ba73b5"
   },
   {
      "id": 7,
@@ -53,46 +53,6 @@
      "idCategoria":1,
      "tipo":"Scottish Red Export",
      "precio": 450,
-     "img":"foto7.jpg"
- },
- {
-     "id": 8,
-     "nombre": "Cerveza ",
-     "idCategoria":1,
-     "tipo":"Black Mamba",
-     "precio": 450,
-     "img":"foto4.jpg"
- },
- {
-     "id": 9,
-     "nombre": "Cerveza ",
-     "idCategoria":1,
-     "tipo":"Ipa 47",
-     "precio": 450,
-     "img":"foto1.jpg"
- },
- {
-     "id": 10,
-     "nombre": "Cerveza ",
-     "idCategoria":1,
-     "tipo":"White Ipa",
-     "precio": 450,
-     "img":"foto3.jpg"
- },
- {
-     "id": 11,
-     "nombre": "Cerveza ",
-     "idCategoria":1,
-     "tipo":"Ipa Argenta",
-    "precio": 450,
-     "img":"foto5.jpg"
- },
- {
-     "id": 12,
-     "nombre": "Cerveza ",
-     "idCategoria":1,
-     "tipo":"Ipa Kick",
-     "precio": 450,
-     "img":"foto2.jpg"
+     "img":"https://firebasestorage.googleapis.com/v0/b/lagashbeer.appspot.com/o/foto7.jpg?alt=media&token=482497b8-27c2-455c-b7d0-cac338d05e66"
  }
 ]
