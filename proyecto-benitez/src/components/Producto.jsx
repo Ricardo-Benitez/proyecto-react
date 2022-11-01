@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
-import { consultarBDD } from '../../Utils/funcionesUtiles';
+import { consultarBDD } from './Utilidades/FuncionesUtiles';
 import DetalleProducto from './DetalleProducto';
-import { getProducto } from './utilidades/firebase';
+import { getProducto } from './Utilidades/firebase';
 
 
 const Producto = () => {

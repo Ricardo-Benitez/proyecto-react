@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { consultarBDD } from '../../utils/funcionesUtiles';
+import { consultarBDD } from './Utilidades/FuncionesUtiles';
 
 const Categoria = () => {
     

@@ -1,5 +1,5 @@
 import React, {useState, useContext} from 'react';
-import { CarritoContext } from '../../context/CarritoContext';
+import { CarritoContext } from '../context/CarritoContext';
 const DetalleProducto = ({producto}) => {
     const [cantidad, setCantidad] = useState(1);
     

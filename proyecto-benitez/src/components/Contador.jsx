@@ -6,7 +6,7 @@ const Contador = () => {
     
     function modificarContador(operacion) {
         if(operacion == "+") {
-            setContador(contador + 1) //contador = contador + 1
+            setContador(contador + 1) 
         } else {
             if(contador > 1) {
                 setContador(contador - 1)

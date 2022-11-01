@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import Dropdow from '../layouts/Dropdow';
-import Secciones from '../layouts/Secciones';
+import Dropdow from './Dropdow';
+import Secciones from './Secciones';
 
 const Navbar = ({contador}) => {
   const listDrowdon = ["Pintas", "Botellas", "Barriles"]
